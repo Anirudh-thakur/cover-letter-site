@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
-  name: string = '';
-  email: string = '';
-  message: string = '';
+  name: any = '';
+  email: any = '';
+  message: any = '';
 
   submitForm() {
     console.log('Contact Form Submitted:', { name: this.name, email: this.email, message: this.message });
